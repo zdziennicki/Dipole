@@ -24,7 +24,7 @@ color2 = data2[2]
 #Before scattering code
 cm = plt.cm.jet
 norm = matplotlib.colors.Normalize(vmin=min(color), vmax=max(color))
-sc=plt.scatter(x2, y2, marker='s', c=color2, vmin=min(color2), vmax=max(color2), cmap=cm, s=12, edgecolors='0.3', linewidths=0.5)
+sc=plt.scatter(x2, y2, marker='s', c=color2, vmin=min(color2), vmax=max(color2), cmap=cm, s=12, edgecolors='0.3', linewidths=0.1)
 plt.gca().spines['top'].set_linewidth(2)  
 plt.gca().spines['bottom'].set_linewidth(2)  
 plt.gca().spines['left'].set_linewidth(2)  
@@ -44,7 +44,7 @@ plt.clf()
 # Bound state energy
 cm = plt.cm.jet
 norm = matplotlib.colors.Normalize(vmin=min(color), vmax=max(color))
-sc=plt.scatter(x, y, marker='s', c=color, vmin=min(color), vmax=max(color), cmap=cm, s=5, edgecolors='0.3', linewidths=0.5)
+sc=plt.scatter(x, y, marker='s', c=color, vmin=min(color), vmax=max(color), cmap=cm, s=5, edgecolors='0.3', linewidths=0.1)
 plt.gca().spines['top'].set_linewidth(2)  
 plt.gca().spines['bottom'].set_linewidth(2)  
 plt.gca().spines['left'].set_linewidth(2)  
